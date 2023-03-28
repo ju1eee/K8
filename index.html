@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="css/index.css" rel="stylesheet" type="text/css">
+    <script src="js/index.js" type="text/javascript"></script>
+
+    <style>
+    .contents1{
+            background-image:url("img/k8_feature_pc_bg.png");
+            background-size: cover;
+            background-position:center center;
+        }
+    </style> 
+</head>
+<body>
+    <header id="header">
+        <a href="https://www.kia.com/kr/vehicles/k8/features?utm_source=brandsearch_pcmore&utm_medium=AD20230302&utm_campaign=kia2023_K8&utm_content=step2more"><span class="logo"><img src="img/KIA_logo3.png" width="100"></span></a>
+        <ul>
+            <li><a href="#">차량</a></li>
+            <li><a href="#">구매</a></li>
+            <li><a href="#">체험</a></li>
+            <li><a href="#">이벤트</a></li>
+            <li><a href="#">고객 지원</a></li>
+            <li><a href="#">Discover Kia</a></li>
+        </ul>
+    </header>
+    <section class="contents1">
+        <h2>The 2023 K8, <br> 스페셜 에디션 출시</h2>
+        <h4>The Outstanding, 영감은 낯선 곳으로 부터</h4>
+        <h3>33,800,000 <span class="subtxt">원부터</span></h3>
+
+        <ul>
+            <li><img src="img/usp_fuel_effeciency.png">
+                <p class="text1">18.0km/ℓ 최대 복합연비</p></li>
+            <li><img src="img/usp_displacement.png">
+                <p class="text2">3,470cc 배기량</p></li>
+            <li><img src="img/usp_maximum_power.png">
+                <p class="text3">300ps 최고출력</p></li>
+        </ul>
+    </section>
+    <section class="contents2">
+        <h1>K8 추천 모델</h1>
+        <div class="contents2_2">
+            <div id="model1"><p class="model_sub">3.5 가솔린</p>
+                 <span id="model_expensive">최고가 모델</span>
+                 <p class="model_main">시그니처 투톤휠 AWD</p>
+                 <img src="img/k8_gljs4bca2_b_abp.webp" width="100%">
+                <p class="out_color">외장 컬러<span class="sub1">오로라 블랙 펄</span></p>
+                <p class="in_color">내장 컬러<span class="sub2">브라운 투톤</span></p>
+                <p class="option">옵션(8)<span class="sub3">컴포트<br>드라이브 와이즈<br>전자제어 서스펜션 등</span></p>
+                <hr>    
+                <p id="money">52,600,000<span id="won">원</span></p>
+            </div>
+            <div id="model2"><p class="model_sub">1.6 하이브리드</p>
+                <span id="model_expensive1">베스트셀러</span>
+                <p class="model_main">노블레스 투톤휠 A/T</p><img src="img/k8_gljs49b32_b_agt.webp" width="100%">
+                <p class="out_color">외장 컬러<span class="sub1">인터스텔라 그레이</span></p>
+                <p class="in_color">내장 컬러<span class="sub2">브라운 투톤</span></p>
+                <p class="option">옵션(1)<span class="sub3">드라이브 와이즈</span></p>
+                <hr>
+                <p id="money">43,980,000<span id="won">원</span></p>
+            </div>
+            <div id="model3"><p class="model_sub">3.5 LPi</p>
+                <span id="model_expensive">최저가 모델</span>
+                <p class="model_main">프레스티지 A/T</p><img src="img/k8_glps46g32_a_swp.webp" width="100%">
+                <p class="out_color">외장 컬러<span class="sub1">스노우 화이트 펄</span></p>
+                <p class="in_color">내장 컬러<span class="sub2">블랙 원톤</span></p>
+                <p class="option">옵션<span class="sub3">-</span></p>
+                <hr>
+                <p id="money">33,200,000<span id="won">원</span></p>
+            </div>
+        </div>
+    </section>
+    <section class="contents3">
+        <h1>The Outstanding, The Kia K8</h1>
+        <h3>어색하고, 낯설고, 모든 새로움은 그렇게 시작합니다. 지금 K8과 낯선 여정을 함께 하세요</h3>
+        <div class="Sirv" data-src="https://devistwo.sirv.com/K8.spin"></div>
+        <span>마우스를 드래그/스크롤하여 외관을 확인하세요!</span>
+        
+    </section>
+    <footer class="footer">
+        <div class="footer_logo"><a href="https://www.kia.com/kr/vehicles/k8/features?utm_source=brandsearch_pcmore&utm_medium=AD20230302&utm_campaign=kia2023_K8&utm_content=step2more"><img src="img/KIA_logo3.png" width="100"></a></div>
+        <ul class="footer_menu">
+            <li><a href="#">판매 네트워크</a></li>
+            <li><a href="#">견적 내기</a></li>
+            <li><a href="#">구매 상담 신청</a></li>
+            <li><a href="#">시승 신청</a></li>
+            <li><a href="#">기아렌터카</a></li>
+            <li><a href="#">22161112_정주원</a></li>
+        </ul>
+        <div class="copyright">© Kia Corp. All rights reserved</div>
+    </footer>
+    <button id="top">Top</button>
+
+    <script>
+        var myHeader = document.getElementById("header");
+        //console.log(document.getElementById("header"));
+        myHeader.onmouseover = function(){
+            //this.style.backgroundColor = "";
+            this.classList.add("over");
+        }
+        myHeader.onmouseout = function(){
+            //this.style.backgroundColor = "";
+            this.classList.remove("over");
+        }
+
+        const header = document.querySelector('header');
+        header.classList.add('show');
+        window.addEventListener("scroll", function () {
+            if (window.pageYOffset > 300) {
+                header.classList.remove('show');
+                header.classList.add('hide');
+                header.style.top = -100 + "px";
+            } else {
+                header.classList.add('show');
+                header.classList.remove('hide');
+                header.style.top = 0 + "px";
+            }
+        });
+
+        const contents2_2 = document.querySelector('.contents2_2');
+        let scrolled = false;
+
+        window.addEventListener('scroll', () => {
+        if (!scrolled && window.pageYOffset > 450) {
+        contents2_2.classList.add('animate-up');
+        contents2_2.classList.remove('animate-down');
+        scrolled = true;
+        } else if (scrolled && window.pageYOffset <= 450) {
+        contents2_2.classList.remove('animate-up');
+        contents2_2.classList.add('animate-down');
+        scrolled = false;
+        }
+    });
+
+    function scrollToTop(){
+            window.scrollTo({
+                top: 0,
+                behavior: "smooth"
+            })
+        }
+        var button = document.getElementById('top');
+        button.addEventListener('click',scrollToTop);
+    </script>
+    <script src="https://scripts.sirv.com/sirv.js"></script>
+    
+</body>
+</html>
