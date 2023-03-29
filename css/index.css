@@ -221,14 +221,13 @@ hr{
 #money{
     float:right;
     font-size:28px;
-    margin-right:38px;
+    margin-right:10%;
     font-weight:500;
 }
 
 #won{
     font-weight:lighter;
     font-size:18px;
-    margin-left:10px;
 }
 #model1, #model2, #model3{
     border:solid 2px #ccc;
@@ -322,7 +321,7 @@ hr{
     justify-content: center;
     align-items: center;
     color:#303030;
-    padding:85px 0px 0px 55px;
+    padding:90px 0px 0px 55px;
 }
 .contents3 img{
     position:relative;
